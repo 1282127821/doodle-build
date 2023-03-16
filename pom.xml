@@ -6,14 +6,16 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.doodle</groupId>
-    <artifactId>doodle-build-springboot3x</artifactId>
+    <artifactId>doodle-build-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-build-springboot3x/pom.xml</relativePath>
+    <relativePath>doodle-build-parent/pom.xml</relativePath>
   </parent>
   <artifactId>doodle-build</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <properties>
+    <maven.deploy.skip>true</maven.deploy.skip>
+  </properties>
   <modules>
-    <module>doodle-build-springboot3x</module>
+    <module>doodle-build-parent</module>
   </modules>
 </project>
