@@ -19,7 +19,6 @@
     <springdoc.version>2.1.0</springdoc.version>
     <easyexcel.version>3.3.2</easyexcel.version>
     <vaadin.version>24.1.7</vaadin.version>
-    <vaadin-maven-plugin.skip>true</vaadin-maven-plugin.skip>
     <protobuf.version>3.21.12</protobuf.version>
     <protobuf-maven-plugin.version>0.6.1</protobuf-maven-plugin.version>
     <os-maven-plugin.version>1.6.2</os-maven-plugin.version>
@@ -76,9 +75,6 @@
           <groupId>com.vaadin</groupId>
           <artifactId>vaadin-maven-plugin</artifactId>
           <version>${vaadin.version}</version>
-          <configuration>
-            <skip>${vaadin-maven-plugin.skip}</skip>
-          </configuration>
           <executions>
             <execution>
               <goals>
