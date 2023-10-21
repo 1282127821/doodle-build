@@ -20,6 +20,7 @@
     <easyexcel.version>3.3.2</easyexcel.version>
     <vaadin.version>24.1.7</vaadin.version>
     <protobuf.version>3.21.12</protobuf.version>
+    <jjwt.version>0.12.3</jjwt.version>
     <protobuf-maven-plugin.version>0.6.1</protobuf-maven-plugin.version>
     <os-maven-plugin.version>1.6.2</os-maven-plugin.version>
     <spotless-maven-plugin.version>2.28.0</spotless-maven-plugin.version>
@@ -58,6 +59,13 @@
         <groupId>com.google.protobuf</groupId>
         <artifactId>protobuf-java</artifactId>
         <version>${protobuf.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.jsonwebtoken</groupId>
+        <artifactId>jjwt</artifactId>
+        <version>${jjwt.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
       </dependency>
     </dependencies>
   </dependencyManagement>
